@@ -5,7 +5,7 @@ def inversion():
 
 def main():
   chords = ["C Major" , "D Minor" , "E Minor" , "F Major" , "G7" , "A Minor" , "B diminished"]  
-  cnum = int(input('Enter number of chords you would like in C Maj: '))
+  cnum = int(input('Enter number of chords you would like in C Major: '))
   for x in range(cnum):
     inv = inversion() 
     print(random.choice(chords)+ " " + inv) 
